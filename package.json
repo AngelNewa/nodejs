@@ -1,0 +1,26 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "this is my first project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "lint": "node_module/ .bin/eslint *.js",
+    "test": "test"
+  },
+  "keywords": [
+    "app"
+  ],
+  "author": "angela",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^6.7.1",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.9.0",
+    "@typescript-eslint/parser": "^2.9.0",
+    "eslint": "^6.7.1"
+  }
+}
